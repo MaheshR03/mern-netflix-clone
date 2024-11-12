@@ -2,6 +2,7 @@
 
 <h2 align="center">render: https://netflix-clone-lkqt.onrender.com</h2>
 
+
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
 ### Setup .env file
