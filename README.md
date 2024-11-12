@@ -1,6 +1,6 @@
 <h1 align="center">A MERN stack Netflix Clone styled with tailwindCSS🎬</h1>
 
-render: https://netflix-clone-lkqt.onrender.com
+<h1 align="center">render: https://netflix-clone-lkqt.onrender.com</h1>
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
