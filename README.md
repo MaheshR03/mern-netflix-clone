@@ -1,4 +1,4 @@
-<h1 align="center">A MERN stack Netflix Clone styled with tailwindCSS🎬</h1>
+<h2 align="center">A MERN stack Netflix Clone styled with tailwindCSS🎬</h2>
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
