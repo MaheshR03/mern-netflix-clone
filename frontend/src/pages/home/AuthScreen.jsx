@@ -24,7 +24,7 @@ const AuthScreen = () => {
 			{/* hero section */}
 			<div className='flex flex-col items-center justify-center text-center py-40 text-white max-w-6xl mx-auto'>
 				<h1 className='text-4xl md:text-6xl font-bold mb-4'>Unlimited movies, TV shows, and more</h1>
-				<p className='text-lg mb-4'>Watch anywhere. Cancel anytime.</p>
+				<p className='text-lg mb-4 mt-2'>Starts at ₹149. Cancel at any time.</p>
 				<p className='mb-4'>Ready to watch? Enter your email to create or restart your membership.</p>
 
 				<form className='flex flex-col md:flex-row gap-4 w-1/2' onSubmit={handleFormSubmit}>
