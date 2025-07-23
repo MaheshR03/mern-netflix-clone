@@ -1,33 +1,87 @@
-<h2 align="center">A MERN stack Netflix Clone styled with tailwindCSS🎬</h2>
+
+# MERN Netflix Clone
+
+<p align="center">
+  <strong>A full-stack Netflix clone built with MongoDB, Express, React, Node.js, and styled using TailwindCSS.</strong>
+</p>
+
+---
+
+## Demo
+
+Live App: [https://netflix-clone-lkqt.onrender.com](https://netflix-clone-lkqt.onrender.com)
+
+---
+
+## Screenshots
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
-<br>
-<br>
-<img width="1897" height="905" alt="image" src="https://github.com/user-attachments/assets/55ba35aa-6df1-425f-a63a-650736d6b8c9" />
-<br>
-<br>
-<img width="1896" height="886" alt="image" src="https://github.com/user-attachments/assets/b9824e39-f09e-4f1a-9f76-6836969e7169" />
 
-<h3 align="center">render: https://netflix-clone-lkqt.onrender.com</h3>
+<img width="1897" height="905" alt="Home Screen" src="https://github.com/user-attachments/assets/55ba35aa-6df1-425f-a63a-650736d6b8c9" />
 
-### Setup .env file
+<img width="1896" height="886" alt="Browse Screen" src="https://github.com/user-attachments/assets/b9824e39-f09e-4f1a-9f76-6836969e7169" />
 
-```bash
+---
+
+## Features
+
+- User authentication (Sign Up, Login)
+- Browse trending movies and TV shows
+- Search functionality
+- Responsive UI with TailwindCSS
+- Watch page with video player
+- User search history
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js & npm
+- MongoDB database
+
+### Setup `.env` file
+
+Create a `.env` file in the `backend` directory with the following content:
+
+```env
 PORT=5000
 MONGO_URI=your_mongo_uri
 NODE_ENV=development
-JWT_SECRET=your_jwt_secre
+JWT_SECRET=your_jwt_secret
 TMDB_API_KEY=your_tmdb_api_key
 ```
 
-### Run this app locally
+### Installation
+
+1. **Clone the repository:**
+
+   ```shell
+   git clone https://github.com/MaheshR03/mern-netflix-clone.git
+   cd mern-netflix-clone
+   ```
+
+2. **Install dependencies:**
+
+   ```shell
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
+
+### Build & Start
+
+To build and start the app locally:
 
 ```shell
 npm run build
-```
-
-### Start the app
-
-```shell
 npm run start
 ```
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
