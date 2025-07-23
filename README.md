@@ -1,7 +1,7 @@
 
 # MERN Netflix Clone
 
-<p align="center">
+<p>
   <strong>A full-stack Netflix clone built with MongoDB, Express, React, Node.js, and styled using TailwindCSS.</strong>
 </p>
 
@@ -57,19 +57,19 @@ TMDB_API_KEY=your_tmdb_api_key
 
 1. **Clone the repository:**
 
-   ```shell
-   git clone https://github.com/MaheshR03/mern-netflix-clone.git
-   cd mern-netflix-clone
-   ```
+```shell
+git clone https://github.com/MaheshR03/mern-netflix-clone.git
+cd mern-netflix-clone
+```
 
 2. **Install dependencies:**
 
-   ```shell
-   cd backend
-   npm install
-   cd ../frontend
-   npm install
-   ```
+```shell
+cd backend
+npm install
+cd ../frontend
+npm install
+```
 
 ### Build & Start
 
@@ -79,6 +79,52 @@ To build and start the app locally:
 npm run build
 npm run start
 ```
+
+---
+
+## Project Structure
+
+```
+mern-netflix-clone/
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── hooks/
+│   │   ├── pages/
+│   │   ├── store/
+│   │   └── utils/
+│   ├── index.html
+│   ├── package.json
+│   └── ...
+├── LICENSE
+├── README.md
+└── package.json
+```
+
+---
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some feature'`)
+5. Push to your branch (`git push origin feature/your-feature`)
+6. Open a Pull Request
+
+Please make sure your code follows the project's coding conventions and passes all tests before submitting a PR.
 
 ---
 
