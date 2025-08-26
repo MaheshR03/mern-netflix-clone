@@ -9,7 +9,7 @@
 
 ## Demo
 
-Live App: [https://netflix-clone-lkqt.onrender.com](https://netflix-clone-lkqt.onrender.com)
+Live App: [Check it out](https://netflix-clone-lkqt.onrender.com)
 
 ---
 
